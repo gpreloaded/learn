@@ -24,6 +24,12 @@ const withMDX = require('@next/mdx')({
 });
 
 const nextConfig = {
+  env: {
+    brandName: 'Prepastar',
+    logo: '/192x192.png',
+    siteDescription: 'Tout les conseils et astuces pour bien réussir les CPGE.',
+  },
+
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 };
 
